@@ -1,0 +1,568 @@
+/*------- body ---------*/
+
+body{
+    background-color: #000000;
+}
+
+/* ---------header ------------ */
+.hero-title h1 {
+    color: #ffffff;
+}
+header {
+    border-bottom: 1px solid #333333;
+    background-color: #000;
+}
+header.shrink{
+    background-color: #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.login-btn a{
+    background-color: #3399FF;
+    border: 2px solid #3399FF;
+    color: #ffffff;
+}
+.login-btn a:hover{
+    background-color: transparent;
+    border: 2px solid #3399FF;
+    color: #ffffff;
+    transition: 0.5s all ease;
+}
+input.searchbar{
+    background-color: #202020;
+    color: #828282;
+    box-shadow: 0 3px 15px rgba(49, 49, 49, 0.4);
+    border: 1px solid #333333;
+}
+input.searchbar:focus{
+    background-color: #202020;
+    color: #828282;
+    box-shadow: 0 3px 15px rgba(49, 49, 49, 0.4);
+    border: 1px solid #39f;
+    transition: 0.5s all ease;
+}
+.search-icon i{
+    color: #828282;
+}
+.mobile-search-icon a{
+    color: #828282;
+}
+.navbar-collapse{
+    background-color: #000000;
+}
+.hero-btn.nav-signup .login-btn a {
+    background-color: #44B3DB;
+    border: 2px solid #44B3DB;
+    color: #ffffff;
+}
+.hero-btn.nav-signup .login-btn a:hover {
+    background-color: transparent;
+    border: 2px solid #44B3DB;
+    color: #ffffff;
+}
+/* -----------home----------- */
+.sidebar h2{
+    color: #39f;
+    border-bottom: 1px solid #333333;
+}
+.featured h5{
+    color: #ffffff;
+}
+.featured-content p a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.featured-content p a:hover{
+    color: #39f;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.view-all p a{
+    color: #39f;
+}
+.view-all{
+    border-bottom: 1px solid #333333;
+}
+.middle-trending{
+    background-color: #111111;
+}
+.trending-prospective p{
+    color: #39f;
+}
+.trending-prospective h5{
+    color: #ffffff;
+}
+.trending-custmize p {
+    color: #39f;
+}
+.newzack-box{
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.2);
+}
+.newzack-content h3{
+    color: #ffffff;
+}
+.newzack-content h5{
+    color: #828282;
+}
+.newzack-content p{
+    color: #39f;
+}
+.newzack-time h5{
+    color: #828282;
+}
+.newzack-time p {
+    color: #39f;
+}
+.story-content p{
+    color: #ffffff;
+}
+.story-content p a{
+    color: #39f;
+}
+.story-content h5{
+    color: #ffffff;
+}
+.comment-box{
+    border-bottom: 1px solid #333333;
+}
+.impression p a{
+    color: #39f;
+}
+.comment p a{
+    color: #39f;
+}
+.recent-comment-link p a{
+    color: #39f;
+}
+.recent-comment-text h5{
+    color: #ffffff;
+}
+.conmment-content p{
+    color: #ffffff;
+}
+.conmment-content p a{
+    color: #39f;
+}
+.join-us h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #333333;
+}
+.joinus-content p{
+    color: rgba(255, 255, 255, 0.9);
+}
+a.joinus-signup{
+    color: #ffffff;
+    background-color: #44B3DB;
+    border: 2px solid #44B3DB;
+}
+a.joinus-signup:hover{
+    color: #ffffff;
+    border: 2px solid #44B3DB;
+    background-color: transparent;
+    transition: 0.5s all ease;
+}
+.advertisment-section h2{
+    color: #ffffff;
+}
+.advertisment-section{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.social-link ul li a{
+    color: #828282;
+}
+.social-link ul li a:hover{
+    color: #39f;
+}
+.social-link ul li:after{
+    background: #828282;
+}
+.copy-right p {
+    color: #828282;
+}
+.copy-right p a{
+    color: #828282;
+}
+.copy-right p a:hover{
+    color: #39f;
+}
+
+
+/* ----------list page-------- */
+
+.list-trend-content h2{
+    color: #ffffff;
+}
+.list-view p a{
+    color: #39f;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.denim h5{
+    color: #ffffff;
+}
+.denim-2 h5{
+    color: #ffffff;
+}
+.denim-2 p{
+    color: #39f;
+}
+.denim p{
+    color: #39f;
+}
+
+/* --------------Discussion------------ */
+
+.discussion-title h5{
+    color: #ffffff;
+}
+.discussion-title p{
+    color: #39f;
+}
+
+/* ---------best & worst--------- */
+.week-content h2{
+    color: #ffffff;
+}
+.week-content h2 span{
+    color: #39f;
+}
+.worst-content a{
+    color: #39f;
+}
+.vacation-box{
+    background-color: #000000;
+}
+.vacation-content p{
+    color: rgba(255, 255, 255, 0.9);
+}
+.vacation-title p{
+    color: #39f;
+}
+.vacation-title h5{
+    color: #ffffff;
+}
+.vacation-rating h5{
+    color: #ffffff;
+}
+.vacation-rating p{
+    color: #39f;
+}
+
+
+/* ---------------categories------------- */
+
+.category-title h5{
+    color: #ffffff;
+}
+.explore a{
+    color: #39f;
+}
+.category-box{
+    background-color: #000000;
+}
+.gallery-img p{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+/* ---------------setting page -------------------- */
+
+.profile-login-box form label{
+    color: #ffffff;
+}
+input.profile-input{
+    border: 1px solid #333;
+    background-color: #111;
+    color: #ffffff;
+}
+input.profile-input:focus{
+    border: 1px solid #39f;
+    background-color: #111;
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.2);
+    transition: 0.5s all ease;
+}
+.profile-box {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.2);
+}
+.notification ul li a{
+    color: #ffffff;
+}
+.notification ul li a:hover{
+    color: #39f;
+    transition: 0.5s all ease;
+}
+.setting-more ul li a {
+    color: #39f;
+}
+.setting-more ul li a:hover {
+    color: #39f;
+    transition: 0.5s all ease;
+}
+.logout a{
+    color: #F36;
+}
+
+
+/* ----------alert------------- */
+
+.alert-img-content h5 {
+    color: #fff;
+}
+.alert-time h5{
+    color: #828282;
+}
+.alert-time p{
+    color: #39f;
+}
+.alert-content h5{
+    color: #F32D39;
+}
+.alert-content p{
+    color: #fff;
+}
+.alert-box {
+    box-shadow: 0 10px 10px 0 rgba(255,255,255,0.04);
+    background-color: #000000;
+}
+.alert-content p a {
+    color: #39f;
+}
+ul.login-navigation li a i {
+    box-shadow: 0 2px 15px 0 rgba(150, 150, 150, 0.08);
+    background-color: #111;
+    color: #39f;
+}
+ul.login-navigation li a i:hover{
+    color: #ffffff;
+    background-color: #39f;
+    transition: 0.5s all ease;
+}
+.alter-clear a {
+    color: #39f;
+}
+.setting-view a{
+    color: #39f;
+}
+
+
+
+/* -------------mindprint------------- */
+
+.mindprint-bio-box {
+    box-shadow: 0 10px 10px 0 rgba(255,255,255,0.04);
+    background-color: #000000;
+}
+.mindprint-bio-box .newzack-img {
+    width: 12%;
+}
+.bio-content p{
+    color: #ffffff;
+}
+.trending-custmize p a {
+    color: #39f;
+    text-decoration: none;
+}
+.perspective-box {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.2);
+}
+.animal-content h5 {
+    color: #ffffff;
+}
+.animal-view p a{
+    color: #39f;
+    text-decoration: none;
+}
+.perspective-list ul li{
+    color: #fff;
+}
+.dog {
+    color: #39f;
+    padding-right: 10px;
+}
+.commonality-box {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(99, 99, 99, 0.2);
+}
+.commonolity-user-content h5 {
+    color: #ffffff;
+}
+.commonolity-user-content p{
+    color: #fff;
+}
+.commonolity-title h5 {
+    color: #fff;
+}
+
+/* ----------------signup --------------- */
+
+button.signup-btn {
+    background-color: #46B3DB;
+    color: #fff;
+}
+.signup-login p a{
+    text-decoration: none;
+    color: #39f;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.facebook-btn a{
+    border: 1px solid #4267B2;
+    background-color: #4267B2;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.facebook-btn a:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.5s all ease;
+}
+.signup-policy-content p a {
+    text-decoration: none;
+    color: #39f;
+    font-weight: 700;
+}
+input.signup-input:focus {
+    border: 1px solid #39f;
+    transition: 0.5s all ease;
+}
+.signup-box {
+    background-color: #000000;
+    box-shadow: 0 0px 15px 0 rgba(0, 0, 0, 0.4);
+}
+.signup-title h5{
+    color: #fff;
+}
+.signup-title p{
+    color: #fff;
+}
+.signupform form lable{
+    color: #fff;
+}
+.signup-login p{
+    color: #fff;
+}
+.appple-btn a {
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 8px;
+    color: #fff;
+}
+.appple-btn a:hover{
+    background-color: #4267B2;
+    border: 1px solid #4267B2;
+    color: #fff;
+    transition: 0.5s all ease;
+}
+.signup-policy-content p{
+    color: #fff;
+}
+.close{
+    color: #fff;
+    opacity: 0.8;
+}
+.close:hover{
+    color: #fff;
+    opacity: 1;
+}
+.modal.signup-model {
+    padding-top: 10%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* ---------------impression popup ------------------- */
+
+.impression-title h2{
+    color: #fff;
+}
+.impression-title p {
+    color: #fff;
+}
+.impression-title p a{
+    color: #39f;
+    text-decoration: none;
+}
+.impression-list ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.impression-list ul li a:hover{
+    color: #39f;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.impression-list ul li a span img{
+    background-color: #333;
+}
+
+
+
+/* ---------------comment popup ---------------- */
+
+.comment-tile p{
+    color: #fff;
+}
+.comment-tile h2{
+    color: #fff;
+}
+textarea.comment-input{
+    background-color: #202020;
+    color: #fff;
+}
+.comment-popuplink ul li a i{
+    background-color: #6590D5;
+    color: #fff;
+}
+.comment-popuplink ul li a i:hover{
+    background-color: #39f;
+    color: #fff;
+    transition: 0.5s all ease;
+}
+.commentpop-btn button{
+    color: #fff;
+    background-color: #46B3DB;
+}
+.commentpop-btn button:hover{
+    color: #fff;
+    background-color: #39f;
+    transition: 0.5s all ease;
+}
+
+/* --------------topic details---------- */
+
+.hero-title p{
+    color: #39f;
+}
+.perspective-title h2{
+    color: #fff;
+}
+input.perspective-input-field{
+    color: #fff;
+    border: 1px solid #333;
+}
+input.perspective-input-field:focus{
+    border: 1px solid #39f;
+    transition: 0.5s all ease;
+}
+.askfriend a{
+    color: #39f;
+}
+.sidebar-perspective-title p {
+    color: rgba(255, 255, 255, .7);
+}
+.comment-area label{
+    color: #fff;
+}
+input.perspectie-input {
+    background-color: #202020;
+    color: #fff;
+}
+.comment-area lable{
+    color: #fff;
+}

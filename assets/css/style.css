@@ -1,0 +1,2175 @@
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1440px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    -ms-overflow-style: none;
+}
+
+
+/* ------------------boostrap menu ---------------- */
+
+.navbar-toggler.collapsed .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+.navbar-toggler .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 20% 10%;
+    -ms-transform-origin: 20% 10%;
+    transform-origin: 20% 10%;
+}
+.navbar-toggler .icon-bar:nth-of-type(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10% 10%;
+    -ms-transform-origin: 10% 10%;
+    transform-origin: 10% 10%;
+}
+.navbar-toggler .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 32px;
+    height: 3px;
+    border-radius: 1px;
+    transition: 0.5s all ease;
+    -webkit-transition: all 0.2s;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggler.collapsed .icon-bar:nth-of-type(2) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler .icon-bar:nth-of-type(2) {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler.collapsed .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+.navbar-toggler .icon-bar:nth-of-type(3) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 10% 90%;
+    -ms-transform-origin: 10% 90%;
+    transform-origin: 10% 90%;
+}
+.navbar-light .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffffff;
+    border: none;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(130, 143, 247);
+}
+button:focus{
+    outline: none;
+}
+.mobile-searchbar-form {
+    display: none;
+}
+header .navbar-collapse ul.navbar-nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* -------------scroll------------------- */
+
+.left-sidebar {
+    position: fixed;
+    display: block;
+    width: 17%;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    overflow-y: scroll;
+    padding-top: 90px;
+    z-index: 5;
+}
+.joinus-sidebar {
+    padding: 0 15px;
+    position: fixed;
+    display: block;
+    width: 18%;
+    padding-top: 90px;
+    overflow: hidden;
+}
+.trending {
+    -ms-overflow-style: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 90px;
+}
+.joinus-sidebar{
+    -ms-overflow-style: none;
+}
+.joinus-sidebar::-webkit-scrollbar {
+    display: none;
+}
+.left-sidebar::-webkit-scrollbar {
+    display: none;
+}
+.left-sidebar{
+    -ms-overflow-style: none;
+}
+.trending::-webkit-scrollbar {
+    display: none;
+}
+.trending{
+    -ms-overflow-style: none;
+} 
+
+
+/* ------------------- header -------------------*/
+/* header.shrink {
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    z-index: 9999;
+    top: 0;
+    position: fixed;
+    max-width: 1440px;
+    transition: 0.5s all ease;
+} */
+
+.hero-title h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
+header {
+    position: fixed;
+    display: block;
+    width: 1440px;
+    padding: 25px 0;
+    overflow: hidden;
+    height: 90px;
+    z-index: 999;
+    transition: .5s all ease;
+}
+.searchbar {
+    position: relative;
+    display: inline-block;
+    width: 77%;
+    overflow: hidden;
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    float: left;
+    padding-right: 0px;
+    margin-top: 5px;
+}
+.login-btn a {
+    position: relative;
+    display: block;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.31px;
+    margin: 0 0 0 auto;
+    transition: 0.5s all ease;
+}
+input.searchbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 8px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.31px;
+    outline: none;
+    transition: 0.5s all ease;
+}
+.search-icon i {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 15px;
+    font-size: 16px;
+}
+
+
+/* ---------------header ----------------- */
+
+.header-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.hero-box {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+.navbar-brand {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.bg-light{
+    background-color: transparent !important;
+}
+.navbar{
+    padding: 0;
+}
+.hero-title {
+    position: relative;
+    display: inline-block;
+    width: 51.5%;
+    float: left;
+    overflow: hidden;
+}
+.hero-btn {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.hero-btn.nav-signup {
+    display: none;
+}
+/*----------------- home --------------------*/
+section.hero-home-section{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: .3px;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0;
+    padding: 30px 0 15px 0;
+}
+.featured h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.30px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 15px 0;
+    margin: 0;
+}
+.featured-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    text-align: left;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.featured-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    clear: both;
+    overflow: hidden;
+}
+.featured-img {
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    float: left;
+    overflow: hidden;
+}
+.featured-img img {
+    border-radius: 4px;
+}
+.featured-content {
+    position: relative;
+    display: inline-block;
+    width: 82%;
+    overflow: hidden;
+}
+.view-all p a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.22px;
+    text-decoration: none;
+}
+.view-all {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.mobile-navigation-bar .left-sidebar{
+    display: none;
+}
+.middle-trending {
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    height: 100vh;
+    padding: 30px 60px;
+}
+.trending-prospective p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    margin-bottom: 0;
+}
+.trending-prospective h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: .30px;
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 0;
+}
+.trending-custmize p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.22px;
+    vertical-align: middle;
+    text-align: right;
+    margin: 0;
+}
+.trending-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 0;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.trending-prospective {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.trending-custmize {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.newzack-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+.newzack-details {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.newzack-profile-box {
+    position: relative;
+    display: block;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.newzack-img {
+    position: relative;
+    display: inline-block;
+    width: 18%;
+    float: left;
+}
+.newzack-content {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+}
+.newzack-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.newzack-content h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.newzack-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.newzack-time {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+}
+.newzack-time h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.newzack-time p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: right;
+    margin: 0;
+}
+.story-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+}
+.story-content p a{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.story-content h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: .30px;
+    margin-bottom: 25px;
+}
+.story-content h5 img{
+    padding-right: 5px;
+}
+.newzack-story-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.comment-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.impression {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.impression p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.30px;
+    margin-bottom: 0;
+}
+.impression p a{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.comment {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.comment p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.30px;
+    margin-bottom: 0;
+}
+.comment p a{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.recent-comment {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.recent-comment-text {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.recent-comment-link {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.recent-comment-link p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.recent-comment-link p a{
+    text-decoration: none;
+}
+.recent-comment-text h5 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.conmment-content {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.conmment-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.conmment-content p a{
+    text-decoration: none;
+}
+.comment-box.comment-box-last {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.comment-box.brettlechnar {
+    margin-bottom: 30px;
+}
+
+.join-us h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.29px;
+    margin-bottom: 0;
+    text-align: left;
+    padding: 30px 0 15px 0;
+}
+.joinus-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 15px 0;
+}
+.joinus-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+}
+a.joinus-signup {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    padding: 6px;
+    transition: 0.5s all ease;
+}
+/* .joinus-sidebar {
+    padding: 0 15px;
+} */
+.advertisment-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.24px;
+    margin-bottom: 15px;
+}
+.advertisment-section {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 15px 0;
+}
+.social-link ul li {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.social-link ul li a{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.social-link ul li a:hover{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.social-link ul li:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    top: 10px;
+    right: -12px;
+}
+.social-link ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.copy-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.copy-right p a{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.copy-right p a:hover{
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+
+
+/* -------------list page-------------- */
+.comment-box.list-box {
+    border: none;
+    padding-bottom: 0;
+}
+.list-view p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: right;
+    margin: 0;
+    transition: 0.5s all ease;
+}
+.list-trend-content h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+
+.outfit-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 15px;
+    /* overflow: hidden; */
+}
+.middle-trending.list-mind {
+    display: block;
+}
+.denim {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+/* .denim-2 {
+    position: relative;
+    display: inline-block;
+    width: 19.56%;
+    float: left;
+    overflow: hidden;
+} */
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #3399ff;
+    transition: 0.5s all ease;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    color: #F36;
+    transition: 0.5s all ease;
+}
+.owl-theme .owl-dots {
+    margin: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #F36;
+    border: 2px solid #F36;
+    width: 12px;
+    height: 12px;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+.owl-next {
+    position: absolute;
+    top: 5%;
+    right: -6%;
+}
+.owl-prev {
+    position: absolute;
+    top: 5%;
+    left: -6%;
+}
+.denim h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.denim-2 h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.denim p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.denim-2 p {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.list-trend {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.list-trend-content {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.list-view {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+/* ---------------Discussion page --------------- */
+
+.discussion-title h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.discussion-title p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.discussion-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.discussion-title {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+/* ----------------best & worst --------------- */
+
+.week-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30px;
+    margin-bottom: 0;
+    vertical-align: middle;
+    text-align: left;
+}
+.worst-content a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30px;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.worst-content {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.week-content {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.best-title-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 25px;
+}
+.vacation-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.vacation-box:last-child {
+    margin-bottom: 0;
+}
+.vacation-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.30px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.vacation-content {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 30px 30px 30px;
+}
+.vacation-title h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.vacation-title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.vacation-rating h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.vacation-rating p{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: right;
+    margin-bottom: 0;
+}
+.vacation-title-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 20px 30px 10px 30px;
+    overflow: hidden;
+}
+.vacation-title {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+.vacation-rating {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    overflow: hidden;
+}
+
+/* ---------------categories------------------- */
+
+.category-title h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.30px;
+    margin-bottom: 0;
+}
+.explore a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: 0.30px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.category-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    overflow: hidden;
+}
+.explore {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    overflow: hidden;
+}
+.category-title {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    float: left;
+    overflow: hidden;
+}
+.category-title-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.gallery-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.gallery-img {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin-right: 0px;
+    overflow: hidden;
+}
+.gallery-img p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.gallery-box.last-gallery-box {
+    margin-bottom: 0;
+}
+.gallery-img-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.gallery-img-box a img{
+    transform: scale(1.0);
+    transition: 0.5s all ease;
+}
+.gallery-img-box a img:hover{
+    transform: scale(1.05);
+    transition: 0.5s all ease;
+}
+
+
+
+/* -------------setting page--------------- */
+
+.profile-login-box form label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    letter-spacing: 0.27px;
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 10px 0 5px 0;
+}
+input.profile-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    border-radius: 5px;
+    padding-left: 15px;
+    outline: none;
+    transition: 0.5s all ease;
+}
+.profile-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.profile-img {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.notification ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 50px;
+}
+.notification ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.notification ul li {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.notification ul li:last-child{
+    margin-bottom: 0;
+}
+.notification ul li a:after {
+    position: absolute;
+    display: block;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    width: 35px;
+    height: 35px;
+    background-color: #39f;
+    color: #ffffff;
+    border-radius: 50%;
+    left: -50px;
+    top: 0;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.setting-more ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.setting-more ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    vertical-align: middle;
+    letter-spacing: 0.27px;
+    margin-left: 0;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.setting-more ul li {
+    margin-bottom: 15px;
+}
+.setting-more ul li:last-child{
+    margin-bottom: 0;
+}
+.logout a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    vertical-align: middle;
+    letter-spacing: 0.27px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.logout {
+    margin-top: 35px;
+}
+.profile-box.more-box {
+    margin-bottom: 0;
+}
+
+
+
+/* --------------alert page ------------------- */
+
+.alert-img-content h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 0;
+    letter-spacing: 0.27px;
+}
+.alert-time h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    margin-bottom: 0;
+    letter-spacing: 0.27px;
+}
+.alert-time p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.alert-content h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 5px;
+    letter-spacing: 0.27px;
+}
+.alert-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.27px;
+    margin-bottom: 0;
+}
+.alert-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.alert-content h5 img {
+    padding-right: 5px;
+}
+.alert-time {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    overflow: hidden;
+}
+.alert-img-content {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.alert-img {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    float: left;
+    overflow: hidden;
+}
+.alert-img-box {
+    position: relative;
+    display: block;
+    width: 80%;
+    clear: both;
+    float: left;
+    overflow: hidden;
+}
+.alert-title-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.color-1 {
+    font-weight: 700;
+}
+.color-2 {
+    font-weight: 700;
+    color: #39f;
+}
+.color-3 {
+    font-weight: 700;
+    color: #f3ca3e;
+}
+.color-4 {
+    font-weight: 700;
+    color: #2ac940;
+}
+.alert-box:last-child{
+    margin-bottom: 0;
+}
+.alert-content p a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-navigation {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+ul.login-navigation li {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+}
+ul.login-navigation li a i {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 46px;
+    transition: 0.5s all ease;
+}
+ul.login-navigation li a{
+    text-decoration: none;
+}
+.alter-notification {
+    padding: 20px 0;
+}
+.alter-siderbar-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    clear: none;
+    border-bottom: 1px solid #333333;
+}
+.alter-sidebar {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    float: left;
+    overflow: hidden;
+}
+.alter-clear {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding-top: 30px;
+    text-align: right;
+}
+.alter-clear a {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+    line-height: 23px;
+    text-decoration: none;
+}
+.join-us.alter-sidebar h2 {
+    border-bottom: none;
+}
+.alert-img-box.setting-alert {
+    width: 100%;
+    float: none;
+    margin: 15px 0;
+}
+.alert-img-box.setting-alert .alert-img-content h5 {
+    font-size: 16px;
+}
+.alert-img-box.setting-alert .alert-img-content {
+    width: 80%;
+}
+.alert-img-box.setting-alert .alert-img {
+    width: 20%;
+}
+.setting-view a {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+
+
+/* ---------------mindprint--------------- */
+
+.mindprint-bio-box .newzack-profile-box {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.mindprint-bio-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.bio-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.27px;
+    margin-bottom: 0;
+}
+.bio-content p span {
+    font-weight: 700;
+}
+.perspective-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.animal-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.animal-content {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.animal-view {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.animal-content h5 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.animal-view p {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.19px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.perspective-content-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.perspective-img {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    clear: both;
+    overflow: hidden;
+}
+.perspective-list ul {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.perspective-list ul li {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.impression-graph {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+.commonality-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.commonolity-user-content h5 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.commonolity-user-content p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+}
+.commonality-img-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+.commonality-img-box:last-child{
+    margin-bottom: 0;
+}
+.commonality-img {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.commonolity-user-box {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.commonolity-user-img {
+    position: relative;
+    display: inline-block;
+    width: 23%;
+    float: left;
+    overflow: hidden;
+}
+.commonolity-user-content {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+.commonolity-title h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.commonolity-title {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    overflow: hidden;
+}
+.commonolity-title:last-child{
+    margin-bottom: 0;
+}
+.perspective-list {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+/* ----------signup popup form------------ */
+
+.signup-box {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99;
+    top: 22%;
+    left: 0%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+    transition: 0.5s all ease;
+}
+.signup-title h5 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.signup-title p {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.signupform form {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.signupform form lable {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.27px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+input.signup-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: #F7F8F9;
+    border: 1px solid #EFEFEF;
+    outline: none;
+    margin-bottom: 15px;
+    transition: 0.5s all ease;
+}
+button.signup-btn {
+    position: relative;
+    display: block;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    padding: 9px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.signup-login p {
+    font-size: 16px;
+    letter-spacing: 0.19px;
+    line-height: 26px;
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.signup-btn {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.signup-btn-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.signup-login {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    overflow: hidden;
+}
+.signup-title {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.signupform-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    float: left;
+    overflow: hidden;
+}
+.appple-btn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 230px;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.appple-btn a span {
+    font-size: 24px;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+}
+.appple-btn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 230px;
+    padding: 10px 0;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.facebook-btn a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 230px;
+    padding: 10px 0;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.facebook-btn a span{
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+    top: 7px;
+}
+.signup-social-media-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 30px 0 15px 0;
+    overflow: hidden;
+}
+.appple-btn {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.facebook-btn {
+    position: relative;
+    display: block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.signup-policy-content p {
+    font-size: 16px;
+    letter-spacing: 0.19px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.signup-logo {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    float: left;
+    right: 0;
+    top: 25%;
+}
+.signup-close {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 15px;
+    overflow: hidden;
+}
+.modal-body{
+    padding: 0;
+}
+.signup-model .modal-dialog {
+    max-width: 718px;
+    margin: 0 auto;
+}
+.modal.impression-model .modal-dialog{
+    max-width: 300px;
+    
+}
+
+
+/* ----------------impressions popup--------------- */
+
+.impression-title h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.impression-title p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.impression-list ul li {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    line-height: 23px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.impression-list ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    list-style: none;
+    overflow: hidden;
+}
+.impression-list ul li a span img {
+    position: relative;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+/* ---------------------commentpop--------------- */
+
+.comment-tile h2 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.31px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.comment-tile p {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+textarea.comment-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    min-height: 200px;
+    outline: none;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    transition: 0.5s all ease;
+}
+.comment-tile {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.comment-popuplink ul {
+    position: relative;
+    display: block;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.comment-popuplink ul li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+.comment-popuplink ul li a{
+    text-decoration: none;
+}
+.comment-popuplink ul li a i {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+    margin: 0 3px;
+    transition: 0.5s all ease;
+}
+
+.commentpop-btn button {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.comment-popup-link-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.comment-popuplink {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.commentpop-btn {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+}
+
+
+/* -----------topic details--------------- */
+.hero-title p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.22px;
+    margin-bottom: 0;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.newzack-box.perspective {
+    margin-bottom: 20px;
+}
+.perspective-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.29px;
+    line-height: 30px;
+    margin-bottom: 11px;
+}
+.perspective-note {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.perspective-profile {
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    float: left;
+    overflow: hidden;
+}
+.perspective-input {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    overflow: hidden;
+}
+input.perspective-input-field {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    width: 100%;
+    letter-spacing: 0.3px;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 3px;
+    transition: 0.5s all ease;
+}
+.askfriend a {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.19px;
+    line-height: 20px;
+    text-align: right;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+.slidecontainer {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+    clear: both;
+    overflow: hidden;
+}  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: #F2F2F2;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #BDBDBD;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .sidebar-perspective-title p {
+    font-size: 18px;
+    letter-spacing: 0.22px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.perspective-emoji {
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    float: left;
+    overflow: hidden;
+}
+.perspective-slider {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    float: left;
+    margin: 0 12px;
+}
+.featured .sidebar-perspective-title h5 {
+    padding-bottom: 0;
+    text-align: left;
+}
+.comment-area label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.27px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: 4px 0;
+}
+input.perspectie-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    transition: 0.5s all ease;
+}
+.comment-area lable {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.27px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: 4px 0;
+}
+.perspective-popup {
+    position: relative;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
